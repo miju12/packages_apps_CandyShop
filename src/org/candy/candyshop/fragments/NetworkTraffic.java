@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright (C) 2017 AospExtended ROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,15 +50,14 @@ import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import  com.android.settings.candy.CustomSeekBarPreference;
-import  com.android.settings.candy.SystemSettingSwitchPreference;
+import com.android.settings.candy.CustomSeekBarPreference;
+import com.android.settings.candy.SystemSettingSwitchPreference;
 
 import java.util.Arrays;
 import java.util.List;
 
-
 @SearchIndexable
-public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class NetworkTraffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String NETWORK_TRAFFIC_FONT_SIZE  = "network_traffic_font_size";
 
@@ -73,7 +72,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.traffic);
+        addPreferencesFromResource(R.xml.network_traffic);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
@@ -215,7 +214,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.traffic;
+                    sir.xmlResId = R.xml.network_traffic;
                     return Arrays.asList(sir);
                 }
 
