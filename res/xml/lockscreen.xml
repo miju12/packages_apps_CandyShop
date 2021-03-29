@@ -54,6 +54,13 @@
 
     </PreferenceCategory>
 
+     <org.candy.candyshop.preference.SystemSettingListPreference
+            android:key="ambient_music_ticker"
+            android:title="@string/ambient_music_location"
+            android:summary="%s"
+            android:entries="@array/ambient_music_location_entries"
+            android:entryValues="@array/ambient_music_location_values"
+            android:defaultValue="0" />
   <!--<PreferenceCategory
         android:key="sleep_controls_category"
         android:title="@string/sleep_controls_category_title" >
@@ -71,3 +78,4 @@
     </PreferenceCategory>-->
 
 </PreferenceScreen>
+
