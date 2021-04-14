@@ -244,10 +244,6 @@
     <string name="swap_volume_keys_on_rotation_title">Swap volume buttons</string>
     <string name="swap_volume_keys_on_rotation_summary">Swap volume buttons when rotating the device to landscape orientation</string>
 
-    <!-- 4G LTE switch -->
-    <string name="show_fourg_title">Show 4G instead of LTE</string>
-    <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
-
     <!-- VoLTE switch -->
     <string name="volte_switch_title">VoLTE icon</string>
     <string name="volte_switch_summary">Display VoLTE icon</string>
@@ -279,10 +275,25 @@
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
 
-<!-- ambient music ticker -->
+    <!-- ambient music ticker -->
     <string name="ambient_music_location">Show ambient music ticker</string>
     <string name="ambient_music_disabled">Disabled</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_summary">Schedule Always on display with sunset/sunrise or custom time</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="disabled">Disabled</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+
+   <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/ambient display customisations</string>
+    <string name="ambient_icons_lockscreen_title">AOD icons on lockscreen</string>
+    <string name="ambient_icons_lockscreen_summary">Replace notifications with AOD icons</string>
+    <string name="ambient_icons_size_title">AOD icons size</string>
 
 </resources>
