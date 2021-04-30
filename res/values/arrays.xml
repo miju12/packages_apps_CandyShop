@@ -321,7 +321,7 @@
         <item>7</item>
     </string-array>
 
- <!-- Ambient music ticker location -->
+  <!-- Ambient music ticker location -->
     <string-array name="ambient_music_location_entries">
         <item>@string/ambient_music_disabled</item>
         <item>@string/ambient_music_bottom</item>
@@ -329,6 +329,19 @@
     </string-array>
 
     <string-array name="ambient_music_location_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+  <!-- AOD Schedule -->
+    <string-array name="doze_always_on_auto_mode_entries">
+        <item>@string/disabled</item>
+        <item>@string/night_display_auto_mode_twilight</item>
+        <item>@string/night_display_auto_mode_custom</item>
+    </string-array>
+
+    <string-array name="doze_always_on_auto_mode_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
